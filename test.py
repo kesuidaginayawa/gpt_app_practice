@@ -14,7 +14,7 @@ def mic_speech_to_text(set_language):
     return text # 認識した文字を返す
 
 
-openai.api_key = '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'
+openai.api_key = ''
 class ChatGptApi:
     def __init__(self, system_setting):
         self.system = {'role':'system','content':system_setting}
